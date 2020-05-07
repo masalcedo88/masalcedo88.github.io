@@ -341,7 +341,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .react-native {
-   width: 70%;
+   width: 60%;
    background: #688ba5;;
    -moz-animation: react-native 2s ease;
    -webkit-animation: react-native 2s ease;
@@ -388,7 +388,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes react-native {
    0%   { width: 0px;  }
-   100% { width: 70%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes node {
    0%   { width: 0px;  }
@@ -421,7 +421,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes react-native {
    0%   { width: 0px;  }
-   100% { width: 70%;  }
+   100% { width: 60  %;  }
 }
 @-webkit-keyframes node {
    0%   { width: 0px;  }
