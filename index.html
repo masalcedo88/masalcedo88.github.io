@@ -3,196 +3,678 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css">
-  <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script defer src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
   <title>Marco Salcedo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <script src="js/modernizr.js"></script>
+  <script src="https://kit.fontawesome.com/f5d48c1fc1.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="favicon.png" >
 </head>
-<body class="d-flex flex-column h-100 bg-light">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse  " aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <h4><a class="nav-link text-dark" href="#about">About</a></h4>
-          </li>
-          <li><h4 class="text-center m-2">|</h4></li>
-          <li class="nav-item">
-            <h4><a class="nav-link text-dark" href="#skills">Skills</a></h4>
-          </li>
-          <li><h4 class="text-center m-2">|</h4></li>
-          <li class="nav-item">
-            <h4> <a class="nav-link text-dark" href="#portfolio">Portfolio</a></h4>
-          </li>
-          <li><h4 class="text-center m-2">|</h4></li>
-          <li class="nav-item">
-            <h4><a class="nav-link text-dark" href="#other">Other</a></h4>
-          </li>
-        </ul>
-      </div>
+<body>
+  <header id="home">
+    <nav id="nav-wrap">
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      <ul id="nav" class="nav">
+          <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+          <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+      </ul>
     </nav>
-  </header>
-  <main class="flex-shrink-0">
-    <div class="jumbotron m-0">
-      <div class="container d-flex flex-column align-items-center justify-content-center">
-        <img id="profile-pic" class="rounded-circle border" src='https://i.imgur.com/naBKEOX.jpg' alt='marco'/>
-        <h1 class="display-3 text-light">Hi, I'm Marco!</h1>
-        <h5 class="text-light text-center">Software Engineer | Business Developer | MBA Graduate | Music & Gaming Geek</h5>
+    <div class="row banner">
+      <div class="banner-text">
+        <h1 class="responsive-headline">Hi! I'm Marco.</h1>
+        <h3><span>Software Engineer</span> | <span>Master in Business</span> | <span>Client Specialist</span><br><span>Music & Gaming Geek</span></h3>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/in/marco-salcedo/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/masalcedo88"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://twitter.com/salcedo_marco"><i class="fa fa-twitter"></i></a></li>
+          </ul>
       </div>
     </div>
-    <div id="about" class="text-justify container d-flex flex-column justify-content-center align-items-center">
-      <h4 class="m-4 display-4 text-center">About me</h4>
-      <p class="">I'm a Full-stack Software Engineer based in San Francisco, California with 10 years of experience in Sales Ops and Business Development @ IBM. I graduated my MBA with a concentration in Strategic Corporate Finance, but I can't ignore my passion for Javascript, Python and building MERN-stack apps. I've always been a curious individual who knows how to communicate effectively, always work towards team goals and stay productive, whether it's a normal day or under heavy pressure.</p>
-      <p class="">Some interesting facts about myself include that I speak Spanish, French and English with native proficiency. I love the electric-guitar so much that I used to sing and play rythm/lead for my cover-band which I greatly miss. My wife and I love to explore new hiking trails, we specifically adore Yosemite Valley, but let me know if you have an interesting hike in mind. And lastly, I'm a versatile gamer but these days I'm mostly on Smash Bros Ultimate and Apex Legends.</p>
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+    </p>
+  </header>
+
+
+<!-- About Section
+================================================== -->
+  <section id="about">
+    <div class="row">
+      <div class="three columns">
+        <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+      </div>
+      <div class="nine columns main-col">
+        <h2>About Me</h2>
+          <p>I'm a Software Engineer based in San Francisco, California with 10 years of experience in Sales Ops, Customer Success and Business Development @ IBM. I graduated my MBA with a concentration in Strategic Corporate Finance, but I couldn't ignore my passion for Frontend Development. I focus especifically on modern frameworks like React, Vue or Angular JS. I've always been a curious individual who knows how to communicate effectively, always work towards team goals and stay productive on either a normal day or under heavy pressure.
+            <br><br/>
+            Some interesting facts about myself include that I speak Spanish, French and English with native proficiency. I love the electric-guitar so much that I used to sing and play rythm/lead for my cover-band which I greatly miss. My wife and I love to explore new hiking trails, we specifically adore Yosemite Valley, but let me know if you have an interesting hike in mind. And lastly, I'm a versatile gamer but these days I'm mostly on Smash Bros Ultimate.
+          </p>
+          <div class="row">
+            <div class="columns contact-details">
+              <h2>Contact</h2>
+              <p class="address">
+                <span>Marco Salcedo</span><br>
+                <span>San Francisco, CA 94121 US</span><br>
+                <span>marco@salcedo.io</span>
+              </p>
+          </div>
+            <div class="columns download">
+                <p>
+                  <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="row skill">
+      <div class="three columns header-col">
+        <h1><span>Skills</span></h1>
+      </div>
+      <div class="nine columns main-col">
+        <div class="bars">
+          <ul class="skills">
+            <li><span class="bar-expand react"></span><em><i class="fab-icon fab fa-react"></i>React JS</em></li>
+            <li><span class="bar-expand redux"></span><em><i class="fab-icon fab fa-battle-net"></i>Redux</em></li>
+            <li><span class="bar-expand react-native"></span><em><i class="fab-icon fab fa-react"></i>React Native</em></li>
+            <li><span class="bar-expand node"></span><em><i class="fab-icon fab fa-node-js"></i>Node JS</em></li>
+            <li><span class="bar-expand javascript"></span><em><i class="fab-icon fab fa-js"></i>Javascript</em></li>
+            <li><span class="bar-expand mongodb"></span><em><i class="fab-icon fas fa-leaf"></i>MongoDB</em></li>
+            <li><span class="bar-expand html5"></span><em><i class="fab fa-html5"></i>•<i class="fab-icon fab fa-css3-alt"></i>HTML5/CSS3</em></li>
+            <li><span class="bar-expand github"></span><em><i class="fab-icon fab fa-git-alt"></i>Git</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nine columns main-col">
+        <div class="row item">
+          <div class="twelve columns">
+            <h4>I also work with:</h4>
+            <p>Agile | Ajax | Angular JS | BEM | Bootstrap 4 | Design Thinking | Django | DRY | JQuery | loDash | MVC | npm | Python | REST API's | Scrum | Semantic UI | Vue JS
+            </p>
+            <h4>Soft Skills</h4>
+            <p>REST API's  |  MVC  |  Agile  |  SCRUM  |  BEM  |
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row work">
+      <div class="three columns header-col">
+        <h1><span>Work</span></h1>
+      </div>
+      <div class="nine columns main-col">
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>Awesome Design Studio</h3>
+            <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+            </p>
+          </div>
+          </div>
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Super Cool Studio</h3>
+              <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+              <p>
+                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>Education</span></h1>
+        </div>
+        <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>University of Life</h3>
+              <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+              </p>
+            </div>
+          </div>
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>School of Cool Designers</h3>
+              <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+              <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section id="portfolio">
+    <div class="row">
+      <div class="twelve columns collapsed">
+
+          <h1>Check Out Some of My Works.</h1>
+
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-01" title="">
+                      <img alt="" src="images/portfolio/coffee.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Coffee</h5>
+                            <p>Illustrration</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-02" title="">
+                      <img alt="" src="images/portfolio/console.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Console</h5>
+                            <p>Web Development</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-03" title="">
+                      <img alt="" src="images/portfolio/judah.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Judah</h5>
+                            <p>Webdesign</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-04" title="">
+                      <img alt="" src="images/portfolio/into-the-light.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Into The Light</h5>
+                            <p>Photography</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-05" title="">
+                      <img alt="" src="images/portfolio/farmerboy.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Farmer Boy</h5>
+                            <p>Branding</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-06" title="">
+                      <img alt="" src="images/portfolio/girl.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Girl</h5>
+                            <p>Photography</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-07" title="">
+                      <img alt="" src="images/portfolio/origami.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Origami</h5>
+                            <p>Illustrration</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-08" title="">
+                      <img alt="" src="images/portfolio/retrocam.jpg">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Retrocam</h5>
+                            <p>Web Development</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div>  <!-- item end -->
+
+          </div> <!-- portfolio-wrapper end -->
+
+       </div> <!-- twelve columns end -->
+
+
+       <!-- Modal Popup
+      --------------------------------------------------------------- -->
+
+       <div id="modal-01" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Coffee Cup</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-01 End -->
+
+       <div id="modal-02" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Console</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-02 End -->
+
+       <div id="modal-03" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Judah</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-03 End -->
+
+       <div id="modal-04" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Into the Light</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-04 End -->
+
+       <div id="modal-05" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Farmer Boy</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-05 End -->
+
+       <div id="modal-06" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Girl</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-06 End -->
+
+       <div id="modal-07" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Origami</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-07 End -->
+
+       <div id="modal-08" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+        <div class="description-box">
+          <h4>Retrocam</h4>
+          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+             <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.behance.net">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-01 End -->
+
+
+    </div> <!-- row End -->
+
+ </section> <!-- Portfolio Section End-->
+
+ <!-- Testimonials Section
+ ================================================== -->
+ <section id="testimonials">
+
+    <div class="text-container">
+
+       <div class="row">
+
+          <div class="two columns header-col">
+
+             <h1><span>Client Testimonials</span></h1>
+
+          </div>
+
+          <div class="ten columns flex-container">
+
+             <div class="flexslider">
+
+                <ul class="slides">
+
+                   <li>
+                      <blockquote>
+                         <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                         to do what you believe is great work. And the only way to do great work is to love what you do.
+                         If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                         </p>
+                         <cite>Steve Jobs</cite>
+                      </blockquote>
+                   </li> <!-- slide ends -->
+
+                   <li>
+                      <blockquote>
+                         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                         nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                         </p>
+                         <cite>Mr. Adobe</cite>
+                      </blockquote>
+                   </li> <!-- slide ends -->
+
+                </ul>
+
+             </div> <!-- div.flexslider ends -->
+
+          </div> <!-- div.flex-container ends -->
+
+       </div> <!-- row ends -->
+
+     </div>  <!-- text-container ends -->
+
+ </section> <!-- Testimonials Section End-->
+
+
+ <!-- Contact Section
+ ================================================== -->
+ <section id="contact">
+
+       <div class="row section-head">
+
+          <div class="two columns header-col">
+
+             <h1><span>Get In Touch.</span></h1>
+
+          </div>
+
+          <div class="ten columns">
+
+                <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+
+          </div>
+
+       </div>
+
+       <div class="row">
+
+          <div class="eight columns">
+
+             <!-- form -->
+             <form action="" method="post" id="contactForm" name="contactForm">
+        <fieldset>
+
+                <div>
+             <label for="contactName">Name <span class="required">*</span></label>
+             <input type="text" value="" size="35" id="contactName" name="contactName">
+                </div>
+
+                <div>
+             <label for="contactEmail">Email <span class="required">*</span></label>
+             <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                </div>
+
+                <div>
+             <label for="contactSubject">Subject</label>
+             <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                </div>
+
+                <div>
+                   <label for="contactMessage">Message <span class="required">*</span></label>
+                   <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                </div>
+
+                <div>
+                   <button class="submit">Submit</button>
+                   <span id="image-loader">
+                      <img alt="" src="images/loader.gif">
+                   </span>
+                </div>
+
+        </fieldset>
+         </form> <!-- Form End -->
+
+             <!-- contact-warning -->
+             <div id="message-warning"> Error boy</div>
+             <!-- contact-success -->
+         <div id="message-success">
+                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+         </div>
+
+          </div>
+
+
+          <aside class="four columns footer-widgets">
+
+             <div class="widget widget_contact">
+
+           <h4>Address and Phone</h4>
+           <p class="address">
+             Jonathan Doe<br>
+             1600 Amphitheatre Parkway <br>
+             Mountain View, CA 94043 US<br>
+             <span>(123) 456-7890</span>
+           </p>
+
+         </div>
+
+             <div class="widget widget_tweets">
+
+                <h4 class="widget-title">Latest Tweets</h4>
+
+                <ul id="twitter">
+                   <li>
+                      <span>
+                      This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                      </span>
+                      <b><a href="#">2 Days Ago</a></b>
+                   </li>
+                   <li>
+                      <span>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                      eaque ipsa quae ab illo inventore veritatis et quasi
+                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                      </span>
+                      <b><a href="#">3 Days Ago</a></b>
+                   </li>
+                </ul>
+
+           </div>
+
+          </aside>
+
     </div>
 
-    <div id="skills" class="container-fluid bg-secondary d-flex flex-column justify-content-center align-items-center">
-      <div>
-        <h4 class="m-4 display-4 text-center">Dev Skills</h4>
-      </div>
-      <div class="album row">
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/yFF53io.png"/>
-          <h2>ReactJS</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/nVExoo4.png"/>
-          <h2>NodeJS</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/ABbN1zO.jpg"/>
-          <h2>MongoDB</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/W2FyhoH.png"/>
-          <h2>ES5-7</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/bfvWnuG.png"/>
-          <h2>Bootstrap 4</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/JAKOHqj.jpg"/>
-          <h2>REST API</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/K96AadI.jpg"/>
-          <h2>Python 3</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/6SOlhni.png"/>
-          <h2>Django</h2>
-        </div>
-        <div class="mb-5 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <img class="tech-logo border bd-placeholder-img rounded-circle" src="https://i.imgur.com/FTuSYXV.png"/>
-          <h2>PostgreSQL</h2>
-        </div>
-      </div>
+ </section> <!-- Contact Section End-->
+
+
+ <!-- footer
+ ================================================== -->
+ <footer>
+
+    <div class="row">
+
+       <div class="twelve columns">
+
+          <ul class="social-links">
+             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+             <li><a href="#"><i class="fa fa-skype"></i></a></li>
+          </ul>
+
+          <ul class="copyright">
+             <li>&copy; Copyright 2014 CeeVee</li>
+             <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+          </ul>
+
+       </div>
+
+       <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
     </div>
-    <div id="portfolio" class="album bg-dark d-flex flex-column justify-content-center align-items-center">
-      <h4 class="m-4 display-4 text-center text-light">Portfolio</h4>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="project-thumbnail border rounded" src="https://imgur.com/MwJEvAf.jpg" alt="Gizmo">
-        <div class="card-body">
-                <p class="card-text text-justify">Individually-engineered full-stack Etsy clone site with user auth, profile dashboards, NodeJS back-end routes and controllers with full CRUD on three models within a 1-week sprint.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://gizmo-react.herokuapp.com"><button type="button" class="btn btn-sm mr-2 btn-outline-secondary">App</button></a>
-                    <a href="https://github.com/masalcedo88/gizmo-react"><button type="button" class="btn btn-sm mr-2 btn-outline-dark">Code</button></a>
-                  </div>
-          <small class="text-dark">ReactJS | NodeJS</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="project-thumbnail border rounded" src="https://imgur.com/krXx8Um.jpg" alt="AdventureBuddy">
-              <div class="card-body">
-                <p class="card-text text-justify">AirBnB Experience clone built with a three-dev-team  within one week with user auth, full-stack and complete CRUD functionality on two models using Python, Django and PostgreSQL.</p>
-        <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="http://adventurebuddy.herokuapp.com"><button type="button" class="btn btn-sm mr-2 btn-outline-secondary">App</button></a>
-                    <a href="https://github.com/masalcedo88/adventure"><button type="button" class="btn btn-sm mr-2 btn-outline-dark">Code</button></a>
-                  </div>
-                  <small class="text-dark">Python | Django</small>
-        </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="project-thumbnail border rounded" src="https://i.imgur.com/E0sHNu1.jpg" alt="RevRater">
-              <div class="card-body">
-                <p class="card-text text-justify">Designed and built Yelp clone site with user auth, Google Places API integration, full-stack app and complete CRUD functionality on three models within a 1 week-sprint.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://revrater.herokuapp.com"><button type="button" class="btn btn-sm mr-2 btn-outline-secondary">App</button></a>
-                    <a href="https://github.com/masalcedo88/revrater"><button type="button" class="btn btn-sm mr-2 btn-outline-dark">Code</button></a>
-                  </div>
-                  <small class="text-dark">VanillaJS | NodeJS</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-    <hr class="featurette-divider">
-    <div class="row featurette">
-      <div id="other" class="col-md-7">
-        <h2 class="featurette-heading">Master in Business. <span class="text-muted">Strategic Corporate Finance</span></h2>
-        <p class="lead text-justify">After almost 6 years in the workforce I realized that I wanted a refresher on the latest industry practices, polish my strategic thinking through business cases and grow my network. I decided to apply to EGADE Business School, which has been ranked <a class="text-danger" href="https://www.topuniversities.com/university-rankings/mba-rankings/latin-america/2020">Latin America’s top MBA program for the last 4 years.</a> During my 2 and a half year program I was accepted into Boston University’s Questrom School of Business and London School of Business international programs. I had the opportunity to travel, learn and collaborate with entrepreneurship projects from MassChallenge and LBS Incubator.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="border rounded featurette-image img-fluid mx-auto " src="images/EGADE2018.png"alt='MBA Graduation'/>
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Customer Success. <span class="text-muted">Business Development</span></h2>
-        <p class="lead text-justify">Anyone can go on my LinkedIn and  see that I held several positions during my 9 year career at IBM. However, I have to say that the ones related to customer success and business development were the ones that I enjoyed the most. I learned how to connect and communicate with dissatisfied clients who were considering leaving us for the competition. I had the opportunity to conduct over 50+ webinars and demos to ensure our users could benefit from the full potential of IBM software. I was even in charge of on-boarding resellers on the other side of the planet to make sure they had all the certifications, infrastructure and training to sell our products locally. I learned how to create customer-driven experiences and keep open communications to appreciate the feedback along the way.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="border rounded featurette-image img-fluid mx-auto" src="images/ibm.png"alt='Sales Demo'/>
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Multilingual Fluency. <span class="text-muted">English, Spanish & French</span></h2>
-        <p class="text-justify lead">Not only do I have a knack for programming languages, I’m actually pretty decent at languages in general too! I was born and raised in Mexico but people have a hard time believing that when they hear me speak English or French. This skill has enabled me to build rapport, whether it be with new friends or new clients, on countless occasions. It has also opened several doors for me to work on multi-cultural teams, both remotely and physically, where I have put my interpersonal and emotional skills to the test. I love connecting and communication with people and speaking their language has allowed me to do so more efficiently.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="border rounded featurette-image img-fluid mx-auto" src="images/paris.png" alt='Marco in paris'/>
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    </div>
-  </main>
-  <footer id="contact" class="footer mt-auto py-3 d-flex flex-row justify-content-center align-items-center">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-      <div class="container social-links d-flex flex-row justify-content-center align-items-center">
-        <a class="mr-2 ml-2" href="https://www.linkedin.com/in/marco-salcedo/"><h3><i class="text-dark fa fa-linkedin-square" aria-hidden="true"></i></h3></a>
-        <a class="mr-2 ml-2" href="https://github.com/masalcedo88"><h3><i class="text-dark fa fa-github-square" aria-hidden="true"></i></h3></a>
-        <a class="mr-2 ml-2" href="https://twitter.com/salcedo_marco"><h3><i class="text-dark fa fa-twitter-square" aria-hidden="true"></i></h3></a>
-      </div>
-      <div class="container d-flex flex-column justify-content-center align-items-center">
-        <a class="mr-2 ml-2 text-dark">marco@salcedo.io</a>
-        <small class="mr-2 ml-2">&copy;2020 by Marco Salcedo</small>
-      </div>
-    </div>
-  </footer>
+
+ </footer> <!-- Footer End-->
+
+ <!-- Java Script
+ ================================================== -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+ <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+ <script src="js/jquery.flexslider.js"></script>
+ <script src="js/waypoints.js"></script>
+ <script src="js/jquery.fittext.js"></script>
+ <script src="js/magnific-popup.js"></script>
+ <script src="js/init.js"></script>
 </body>
 </html>
