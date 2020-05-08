@@ -890,8 +890,9 @@ ul#nav li.current a {
 	height: auto;
 	display: inline-block;
 	border-radius: 3px;
-	margin-left: 26%;
+	margin-left: 42%;
 }
+
 #contact button.submit:hover {
 	color: #0d0d0d;
 	background: #fff;

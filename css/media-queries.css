@@ -248,7 +248,7 @@
 		padding-right: 30px;
 	}
 
-	/* Skills Section
+	/* skills Section
    --------------------------------------------------------------------- */
 	#skills .header-col {
 		padding-top: 0;
@@ -392,7 +392,7 @@
 		width: 100%;
 	}
 	#contact button.submit {
-		margin: 30px 0 24px 0;
+		margin: 2rem 0 4rem 10rem;
 	}
 	#message-warning,
 	#message-success {
