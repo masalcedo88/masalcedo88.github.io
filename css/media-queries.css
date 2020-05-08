@@ -58,6 +58,15 @@
 		width: 50%;
 	}
 
+	/* Skills Section
+   ------------------------------------------------------------------- */
+	#skills h1 {
+		font: 16px/24px 'opensans-bold', sans-serif;
+	}
+	#skills .main-col {
+		padding-right: 5%;
+	}
+
 	/* Resume Section
    ------------------------------------------------------------------- */
 	#resume h1 {
@@ -237,6 +246,28 @@
 	}
 	#about .main-col {
 		padding-right: 30px;
+	}
+
+	/* Skills Section
+   --------------------------------------------------------------------- */
+	#skills .header-col {
+		padding-top: 0;
+		margin-bottom: 48px;
+		text-align: center;
+	}
+	#skills h1 {
+		letter-spacing: 3px;
+	}
+	#skills .main-col {
+		padding-right: 30px;
+	}
+	#skills h3,
+	#skills .info {
+		text-align: center;
+	}
+
+	.bars {
+		width: 100%;
 	}
 
 	/* Resume Section
